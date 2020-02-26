@@ -27,7 +27,8 @@
 // console.log(++incr);
 // console.log(--decr);
 
-let isChaked = true,
-    isClose = true;
+// let isChaked = true,
+//     isClose = true;
 
-console.log(isChaked && isClose);
+// console.log(isChaked && isClose);
+
