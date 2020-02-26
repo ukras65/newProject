@@ -1,9 +1,9 @@
 "use strict"
 
 let money = +prompt("Ваш бюджет на месяц",""),
-    time = +prompt("Введите дату в формате YYYY-MM-DD", "");
-let onequestions = prompt("Введие обязательную статью расходов в этом месяце", "");
-let twoquestion = +prompt("Восколько обойдеться?","");
+    time = +prompt("Введите дату в формате YYYY-MM-DD", ""),
+    onequestions = prompt("Введие обязательную статью расходов в этом месяце", ""),
+    twoquestion = +prompt("Восколько обойдеться?","");
 
 let appData = {
     Budjet: money,
