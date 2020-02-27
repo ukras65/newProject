@@ -53,3 +53,31 @@
 // // console.log(appData["savings"]);
 // // console.log(money);
 // // console.log(time);
+
+/*do {
+    let a = prompt("Введие обязательную статью расходов в этом месяце", "");
+    let b = prompt("Восколько обойдеться?","");
+    appData.Expenses[a] = b; 
+}
+while ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50);*/
+
+
+// function showFirst(text) {
+//     console.log(text);
+// };
+
+// showFirst("Hello world");
+
+
+// function culc(a,b) {
+//     return(a + b);
+// }
+
+// console.log(culc(6,8));
+// console.log(culc(8,8));
+
+let calc = (a,b) => {
+    a+b
+}
+
+console.log(culc(7,9));
