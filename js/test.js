@@ -111,3 +111,51 @@ for (num; num < 55; num++) {
 // let y = 1; 
 // let x = y = 2;
 // console.log(2 && 1 && null && 0 && undefined );
+
+// for (let i = 1; i < 2; i++) {
+//     let a = prompt("Введие обязательную статью расходов в этом месяце", ""),
+//         b = prompt("Восколько обойдеться?","");
+//     appData.Expenses[a] = b;
+//     if ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50) {
+//         console.log("Проверка пройдена");
+//         appData.Expenses[a] = b; 
+//     } else {
+        
+//     }
+// };
+
+
+// let money = +prompt("Ваш бюджет на месяц",""),
+//     time = prompt("Введите дату в формате YYYY-MM-DD", "");
+
+let money = +prompt("Ваш бюджет на месяц",""),
+    time = prompt("Введите дату в формате YYYY-MM-DD", "");
+
+let appData = {
+        Budjet: money,
+        Time: time,
+        Expenses: {
+        },
+        optionalExpenses: {},
+        income: [],
+        savings: false
+    };
+
+
+// let a = prompt("Введие обязательную статью расходов в этом месяце", ""),
+//     b = prompt("Восколько обойдеться?","");
+
+// while ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50) {
+//     console.log("OK");
+//     appData.Expenses[a] = b; 
+// };
+
+
+do {
+    let a = prompt("Введие обязательную статью расходов в этом месяце", "");
+    let b = prompt("Восколько обойдеться?","");
+    appData.Expenses[a] = b; 
+}
+while ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50);
+
+console.log(appData);
