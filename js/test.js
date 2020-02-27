@@ -128,18 +128,18 @@ for (num; num < 55; num++) {
 // let money = +prompt("Ваш бюджет на месяц",""),
 //     time = prompt("Введите дату в формате YYYY-MM-DD", "");
 
-let money = +prompt("Ваш бюджет на месяц",""),
-    time = prompt("Введите дату в формате YYYY-MM-DD", "");
+// let money = +prompt("Ваш бюджет на месяц",""),
+//     time = prompt("Введите дату в формате YYYY-MM-DD", "");
 
-let appData = {
-        Budjet: money,
-        Time: time,
-        Expenses: {
-        },
-        optionalExpenses: {},
-        income: [],
-        savings: false
-    };
+// let appData = {
+//         Budjet: money,
+//         Time: time,
+//         Expenses: {
+//         },
+//         optionalExpenses: {},
+//         income: [],
+//         savings: false
+//     };
 
 
 // let a = prompt("Введие обязательную статью расходов в этом месяце", ""),
@@ -151,11 +151,42 @@ let appData = {
 // };
 
 
-do {
-    let a = prompt("Введие обязательную статью расходов в этом месяце", "");
-    let b = prompt("Восколько обойдеться?","");
-    appData.Expenses[a] = b; 
-}
-while ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50);
+// do {
+//     let a = prompt("Введие обязательную статью расходов в этом месяце", "");
+//     let b = prompt("Восколько обойдеться?","");
+//     appData.Expenses[a] = b; 
+// }
+// while ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50);
 
-console.log(appData);
+// console.log(appData);
+
+// showFirst("Hello world");
+
+
+// function culc(a,b) {
+//     return(a + b);
+// }
+
+// console.log(culc(6,8));
+// console.log(culc(8,8));
+
+// let calc = (a,b) => {
+//     a+b
+// }
+
+// console.log(culc(7,9));
+
+// let str = "test";
+// console.log(str.length); // Длина строки. Описание снр.
+
+// //Методы
+
+// сonsole.log(str.toLowerCase()); // Нижный регистр
+// console.log(str.toUpperCase()); // Верхний регистр
+
+// let twelwe = "12.2px";
+
+// // console.log(Math.round(twelwe)); // Округление
+// console.log(parseInt(twelwe)); // До целого числа
+// console.log(parseFloat(twelwe)); // Откинули пиксели
+
