@@ -1,4 +1,4 @@
-"use strict"
+/* "use strict"
 let money, time;
 
 function start() {
@@ -104,4 +104,4 @@ console.log(appData);
 //     let b = prompt("Восколько обойдеться?","");
 //     appData.Expenses[a] = b; 
 // }
-// while ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50);
+// while ((typeof(a)) === "string" && (typeof(a)) != null && (typeof(b)) != null && a !="" && b !="" && a.length < 50); */
