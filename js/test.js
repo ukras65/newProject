@@ -190,3 +190,68 @@ for (num; num < 55; num++) {
 // console.log(parseInt(twelwe)); // До целого числа
 // console.log(parseFloat(twelwe)); // Откинули пиксели
 
+// function sum(a,b) {
+//     console.log(a + b);
+// }
+
+// sum(5,1);
+
+
+// function one(learn, js) {
+//     console.log("I learn" + learn);
+//     js();
+// }
+
+// one("JS", function() {
+//     console.log("Right!");
+// });
+
+
+// function two(Leang, callback) {
+//     console.log(Leang + "- Это круто!");
+//     callback();
+// }
+
+// two("JavaScript", function() {
+//     console.log("You are win");
+// });
+
+// function second(one, two) {
+//     console.log(one + "Hellog world");
+//     two();
+// }
+
+// function done() {
+//     console.log("Yeeeessssss");
+// }
+
+// second("Vova -", done);
+
+let options = {
+    audi: "a8",
+    mercedes: "r8",
+    bmw: "m5",
+    porsche: "Panamera"
+};
+
+// console.log(options.porsche);// Получили значение;
+
+options.bool = false;
+options.skoda = {
+    rapid: "15000$",
+    octavia: "19999$"
+};
+
+options.porsche = {
+    Panamera: "45000$"
+};
+delete options.bool; // Удалить обьект;
+
+/* console.log(options); */
+
+/* for(let key in options) {
+    console.log("Свойство " + key + " имеет значение " + options[key]); 
+} // Перебор свойств с помощю in; */
+
+
+/* console.log(Object.keys(options.porsche)); // То же самое но проще. .leang */

@@ -79,7 +79,7 @@ function chooseOptExpenses() {
         }
     }
 }
-chooseOptExpenses();
+// chooseOptExpenses();
 
 
 
