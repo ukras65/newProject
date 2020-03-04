@@ -269,7 +269,7 @@ let id1 = new User("Ania"),
 console.log(id1);
 console.log(id2);
 */
-class User {
+/* class User {
     constructor(name, email) {
         this.name = name;
         this.mail = email;
@@ -281,4 +281,20 @@ class User {
 }
 
 let user = new User("Vova", "velogon6565@gmail.com");
-user.sayHi();
+user.sayHi(); */
+
+/* let solder = {
+    health: 400,
+    armor: 100
+};
+
+let john = {
+    health: 100
+};
+
+john.__proto__ = solder;
+
+console.log(john);
+console.log(john.armor); */
+
+
