@@ -23,11 +23,11 @@ let div = document.createElement("button"),
     text = document.createTextNode("Тут был Вася!");
 div.classList.add("black");
 
-/* document.body.appendChild(div);
-wrapper.appendChild(div); // Добавление в конец элемента */
+document.body.appendChild(div);
+wrapper.appendChild(div); // Добавление в конец элемента
 
 
-/* div.innerHTML = "<b>Hello VOVA!</b>"; */
+div.innerHTML = "<b>Hello VOVA!</b>";
 div.textContent = "Hello Vova";
 
 document.body.insertBefore(div, circle[1]);
